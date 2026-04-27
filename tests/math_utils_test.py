@@ -9,4 +9,4 @@ def test_divide():
 
 
 def test_fail_case():
-    assert add(2, 2) == 5
+    assert add(2, 2) == 4
