@@ -1,4 +1,4 @@
-from math_utils import add, divide
+from src.math_utils import add, divide
 import pytest
 
 def test_add():
@@ -7,5 +7,6 @@ def test_add():
 def test_divide():
     assert divide(10, 2) == 5
 
+
 def test_fail_case():
-    assert add(2, 2) == 4
+    assert add(2, 2) == 5
